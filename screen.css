@@ -1,0 +1,37 @@
+html{
+  background-color: #F9CA82;
+}
+#confirm {
+  text-align: center;
+  font-family: cursive;
+  color: #37D9A7;
+}
+#new-trip-form{
+  text-align: center;
+  font-family: cursive;
+
+}
+input{
+  display:inline-block ;
+}
+label {
+        display: inline-block;
+        margin: 13px;
+
+}
+
+#information{
+  text-align: center;
+  font-size: 30px;
+}
+
+#create-trip{
+  text-align: center;
+  font-size: 45px;
+}
+
+@media (min-width: 600px){
+    #new-trip-fomr{
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
