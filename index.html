@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Trip Form</title> <!-- ONLY placeholder. should be changed -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+  <link rel="stylesheet" href="screen.css" />
+</head>
+<body>
+  <main id="content">
+    <h1 id="createt">Create Trip</h1>
+    <p id="information">
+      Enter your trip information here!
+    </p>
+    <form id="new-trip-form" action="#null" method="get">
+
+          <label for="trip-name">Trip Name</label>
+          <input type="text" name="trip-name" id="trip-name" required placeholder="What's the name of your trip?" />
+          <br>
+
+
+          <label for="location">Location</label>
+          <input type="text" name="location" id="location" required placeholder="Where are you going?" />
+
+          <br>
+          <label for="trip-start">From:</label>
+          <input type="date" name="trip-start" id="trip-start" value="" min="2020-01-01" max="2025-12-31" required />
+          <br>
+
+          <label for="trip-end">To:</label>
+          <input type="date" name="trip-end" id="trip-end" value="" min="2020-01-01" max="2025-12-31"  />
+          <br>
+          <label for="Transport-mode">Transport mode:</label>
+          <input type="text" name="Transport-mode" id="trip-mode" value="" placeholder="What Transportation are you using?" required/>
+          <br>
+
+        <input type="submit" name="create" id="create" value="Create" />
+        <input type="submit" name="cancel" id="cancel" value="Cancel" />
+
+  </main>
+</body>
+</html>
